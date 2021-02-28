@@ -1,3 +1,13 @@
+/*
+ * You are now retarded.
+*
+* I am not responsible for bricked brains, dead usb sticks,
+* or you getting fired because your pc opened 2 seconds slower. Please
+* do some research if you have any concerns about features included in this software
+* before installing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your pc, I will laugh at you. 
+*/
+
 import { Plugin } from '@vizality/entities';
 import { getModule } from "@vizality/webpack";
 import { patch, unpatch } from "@vizality/patcher"
