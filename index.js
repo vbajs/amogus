@@ -26,7 +26,9 @@ export default class amogus extends Plugin {
       const video = document.getElementsByTagName("video")
       for (let i = 0; i < video.length; i++) {
         const element = video[i];
+        if (element.getAttribute("src") != "https://cdn.discordapp.com/attachments/773508852247035915/812451604346830868/when_IMPORSTOR1.mp4") {
         element.setAttribute("src", "https://cdn.discordapp.com/attachments/773508852247035915/812451604346830868/when_IMPORSTOR1.mp4")
+        }
       }
         res.props.children[0] = "amogus" 
         const username = document.getElementsByClassName("username-1A8OIy")
