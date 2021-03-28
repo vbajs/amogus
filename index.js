@@ -41,6 +41,7 @@ export default class amogus extends Plugin {
   }
 
   stop () {
-    unpatch('amoguspng')
+    unpatch('amoguspng');
+	window.location.reload()
   }
 }
